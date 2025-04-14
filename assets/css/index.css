@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+h1{
+   text-align: center;
+   font-size: 60px;
+   color: white;
+}
+#menu{
+    height: 20vh;
+    border: solid 5px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: wheat;
+}
+#menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+}
+#menu a:hover{
+    color: red;
+    transition-duration: 1s;
+    font-size: 35px;
+}
+.herois{
+    min-height: 100vh;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#homemferro{
+    background-color: #061438;
+    border: solid blue;
+}
+#homemferro img{
+    display: block;
+    margin: auto;
+    width: 60vh;
+    
+}
+#capitaoamerica{
+    background-color: #902c04;
+    border: solid rgb(189, 50, 0);
+}
+#capitaoamerica img{
+    display: block;
+    margin: auto;
+    width: 60vh;
+}
+#hulk{
+    background-color: #2e522f;
+    border: solid green;
+}
+#hulk img{
+    display: block;
+    margin: auto;
+    width: 70vh;
+}
+#thor{
+    background-color: #10385c;
+    border: solid rgb(0, 0, 134);
+
+
+}
+#thor img{
+    display: block;
+    margin: auto;
+    width: 65vh;
+}

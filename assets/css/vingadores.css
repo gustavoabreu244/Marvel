@@ -1,0 +1,23 @@
+.vingadores2{
+    color: red;
+}
+#menu1{
+    height: 20vh;
+    border: solid 5px rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(82, 82, 82)
+}
+#menu1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+}
+#menu1 a:hover{
+        color: rgb(0, 0, 0);
+        transition-duration: 1s;
+        font-size: 35px;
+}
